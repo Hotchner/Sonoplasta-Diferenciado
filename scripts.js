@@ -1,7 +1,7 @@
-const cavaloAudio = new Audio('cavalo.mp3')
-const aiaiai = new Audio('aiaiai.mp3')
-const pare = new Audio('pare.mp3')
-const queissomeufilho = new Audio('queissomeufilho.mp3')
+const cavaloAudio = new Audio('sounds/cavalo.mp3')
+const aiaiai = new Audio('sounds/aiaiai.mp3')
+const pare = new Audio('sounds/pare.mp3')
+const queissomeufilho = new Audio('sounds/queissomeufilho.mp3')
 
 const cavaloButton = document.querySelector("#cavalo")
 const pareButton = document.querySelector("#pare")
@@ -24,8 +24,8 @@ aimamaeButton.addEventListener("click", function(){
     aiaiai.play()
 })
 
-const ratinhoo = new Audio('raaaaaatinho.mp3')
-const rapaaz = new Audio('raaapaz.mp3')
+const ratinhoo = new Audio('sounds/raaaaaatinho.mp3')
+const rapaaz = new Audio('sounds/raaapaz.mp3')
 
 const ratinhooButton = document.querySelector("#ratinho")
 const rapaazButton = document.querySelector("#rapaz")
